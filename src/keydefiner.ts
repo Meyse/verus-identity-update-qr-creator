@@ -17,7 +17,7 @@ const main = () => {
   }
 
   console.log(key.getIAddr())
-  console.log(updateIdentityJson)
+  console.log(JSON.stringify(updateIdentityJson))
 }
 
 main()
